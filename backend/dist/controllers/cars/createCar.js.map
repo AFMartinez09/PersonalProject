@@ -1,0 +1,1 @@
+{"version":3,"file":"createCar.js","sourceRoot":"","sources":["../../../src/controllers/cars/createCar.ts"],"names":[],"mappings":";;;AAEO,MAAM,SAAS,GAAG,CAAC,GAAW,EAAE,GAAY,EAAE,EAAE;IACrD,MAAM,EAAE,IAAI,EAAE,GAAG,GAAG,CAAC;IAErB,GAAG,CAAC,IAAI,CAAC;QACP,OAAO,EAAE,SAAS;KACnB,CAAC,CAAC;IACH,QAAQ;IAER,oBAAoB;IAEpB,IAAI;AACN,CAAC,CAAA;AAXY,QAAA,SAAS,aAWrB"}

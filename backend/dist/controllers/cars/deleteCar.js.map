@@ -1,0 +1,1 @@
+{"version":3,"file":"deleteCar.js","sourceRoot":"","sources":["../../../src/controllers/cars/deleteCar.ts"],"names":[],"mappings":";;;AAIO,MAAM,SAAS,GAAG,CAAC,GAAW,EAAE,GAAY,EAAG,EAAE;IACtD,MAAM,EAAE,EAAE,EAAE,GAAG,GAAG,CAAC,MAAM,CAAC;IAE1B,GAAG,CAAC,IAAI,CAAC;QACP,OAAO,EAAE,aAAa;QACtB,EAAE;KACH,CAAC,CAAC;IACD,QAAQ;IAEV,oBAAoB;IAEpB,IAAI;AAEN,CAAC,CAAA;AAbY,QAAA,SAAS,aAarB"}

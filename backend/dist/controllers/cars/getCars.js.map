@@ -1,0 +1,1 @@
+{"version":3,"file":"getCars.js","sourceRoot":"","sources":["../../../src/controllers/cars/getCars.ts"],"names":[],"mappings":";;;AAGO,MAAM,OAAO,GAAG,CAAE,GAAW,EAAE,GAAY,EAAG,EAAE;IACrD,GAAG,CAAC,IAAI,CAAC;QACP,OAAO,EAAE,UAAU;KACpB,CAAC,CAAC;AACL,CAAC,CAAA;AAJY,QAAA,OAAO,WAInB"}

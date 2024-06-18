@@ -1,0 +1,1 @@
+{"version":3,"file":"getUsers.js","sourceRoot":"","sources":["../../../src/controllers/users/getUsers.ts"],"names":[],"mappings":";;;AAGO,MAAM,QAAQ,GAAG,CAAC,GAAY,EAAE,GAAa,EAAG,EAAE;IACvD,GAAG,CAAC,IAAI,CAAC;QACP,OAAO,EAAE,UAAU;KACpB,CAAC,CAAC;AACL,CAAC,CAAA;AAJY,QAAA,QAAQ,YAIpB"}
