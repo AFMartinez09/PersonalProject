@@ -1,4 +1,6 @@
-export interface Users{
+import { RowDataPacket } from "mysql2";
+
+export interface Users extends RowDataPacket{
   id?: string;
   name: string;
   lastname: string;
