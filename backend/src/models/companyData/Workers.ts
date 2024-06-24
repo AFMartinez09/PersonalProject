@@ -1,4 +1,6 @@
-interface Workers {
+import { RowDataPacket } from "mysql2";
+
+export interface Workers extends RowDataPacket {
   id?: string;
   name: string;
   identification: number;
