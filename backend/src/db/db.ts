@@ -1,4 +1,4 @@
-import  mysql  from 'mysql2';
+import  mysql  from 'mysql2/promise';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -11,22 +11,17 @@ const {
 } = process.env;
 
 if(!DB_HOST || !DB_USER || !DB_PASSWORD || !DB_NAME ){
-  throw new Error('Missing required database enviroment vaiables');
+  throw new Error('Missing required database enviroment variables');
 }
 
-const db = mysql.createConnection({
+const pool = mysql.createPool({
   host: DB_HOST,
   user: DB_USER,
   password: DB_PASSWORD,
-  database: DB_NAME
+  database: DB_NAME,
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
 });
 
-db.connect((err) => {
-  if(err){
-    console.error('Error connecting to the database', err);
-    throw err;
-  }
-  console.log('Database connected');
-});
-
-export default db;
+export default pool;
