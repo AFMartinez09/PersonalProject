@@ -1,4 +1,6 @@
-interface Cars {
+import { RowDataPacket } from "mysql2";
+
+export interface Cars extends RowDataPacket {
   id?: string;
   name: string;
   license_plate: string;
